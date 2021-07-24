@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Munish",
+    "email": "munish.kesharwani@gmail.com",
+    "message": "Very well done. Learn React as well."
+  },
+  {
+    "name": "Shilpi",
+    "email": "Shilpi.gupta@gmail.com",
+    "message": "Job Well Done !"
+  },
+  {
+    "name": "Munish",
+    "email": "munish.kesharwani@gmail.com",
+    "message": "Groovy site."
+  },
+  {
+    "name": "Venkatesh",
+    "email": "venky@gmail.com",
+    "message": "Would you consider learning React ?."
+  },
+  { "name": "Rajesh", "email": "rajesh@gmail.com", "message": "TBD." }
+]

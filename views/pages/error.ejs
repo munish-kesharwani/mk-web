@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Error happened. sorry !</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=block"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <%- include('./partials/header.ejs'); -%>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-header" align="center">Error !</div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p><%= errorCode %></p>
+                <footer class="blockquote-footer"><%= errorMessage %>></footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <BR />
+
+    <%- include('./partials/footer.ejs'); -%>
+  </body>
+</html>

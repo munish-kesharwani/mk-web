@@ -1,0 +1,46 @@
+{
+  "employment": [
+    {
+      "name": "Publicis Sapient",
+      "role": "Director Agile Program Management",
+      "start": "15-Jul-2019",
+      "end": "-",
+      "message": "I really love this company because it promotes product engineering"
+    },
+    {
+      "name": "Target",
+      "role": "Senior Project Manager",
+      "start": "15-Jul-2012",
+      "end": "31-Dec-2018",
+      "message": "What did I do ?"
+    },
+    {
+      "name": "Tavant",
+      "role": "Senior Project Manager",
+      "start": "15-Jul-2012",
+      "end": "31-Dec-2018",
+      "message": "What did I do ?"
+    },
+    {
+      "name": "D.E. Shaw & co",
+      "role": "Senior Project Manager",
+      "start": "15-Jul-2012",
+      "end": "31-Dec-2018",
+      "message": "What did I do ?"
+    },
+    {
+      "name": "Soroco",
+      "role": "Senior Project Manager",
+      "start": "15-Jul-2012",
+      "end": "31-Dec-2018",
+      "message": "What did I do ?"
+    },
+    {
+      "name": "ABC",
+      "role": "Senior Project Manager",
+      "start": "15-Jul-2012",
+      "end": "31-Dec-2018",
+      "message": "What did I do ?"
+    }
+  ]
+}

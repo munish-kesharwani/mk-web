@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hi ! I am Munish.</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=block"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <%- include('../partials/header.ejs'); -%>
+    <div class="shadow-none p-1 mb-5 bg-dark rounded">
+    <div class="maincontent">
+      <div class="container">
+        <BR />
+        <div class="row">
+          <div class="col-md-8">
+            <form class="feedback-form" action="/resume" method="post">
+              <input
+                type="hidden"
+                class="form-control"
+                id="username"
+                value="user"
+                name="username"
+              />
+              <div class="form-group">
+                <label for="feedback-form-email">
+                  Enter Password to access resume
+                </label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder=""
+                  name="password"
+                />
+              </div>
+              <button type="submit" class="btn btn-secondary float-right">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <%- include('../partials/footer.ejs'); -%>
+  </body>
+</html>

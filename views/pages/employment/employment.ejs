@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Employment Summary</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=block"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <%- include('../partials/header.ejs'); -%>
+    <table class="table table-striped">
+      <thread
+        ><tr>
+          <th>Company Name</th>
+          <th>Title</th>
+          <th>Start Date</th>
+          <th>End Date</th>
+          <th>Description</th>
+        </tr></thread
+      >
+      <% for(var i=0; i < employmentData.length; i++) { %>
+      <tr>
+        <td><%= employmentData[i].name %></td>
+        <td><%= employmentData[i].role %></td>
+        <td><%=employmentData[i].start %></td>
+        <td><%=employmentData[i].end %></td>
+        <td><%=employmentData[i].message %></td>
+      </tr>
+      <% } %>
+    </table>
+    <%-include('../partials/footer.ejs'); -%>
+  </body>
+</html>
